@@ -1,0 +1,58 @@
+.main-nav .active {
+  background-color: rgba(231, 142, 26, 0.966);
+  border-radius: 0.5rem;
+}
+
+.test {
+  background-image: url("/test.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50% auto;
+  /* margin-right: 1%; */
+}
+.custom-sidebar {
+  height: 100vh;
+}
+
+.custom-right-section {
+  height: 100vh;
+}
+
+.bg-aqua {
+  background-color: white;
+}
+
+.bg-lime {
+  background-color: rgb(179, 255, 56);
+}
+.img1 {
+  width: 63;
+  height: 63;
+  top: 72px;
+  left: 1234px;
+  border-radius: 50px;
+}
+/* في ملف j.css */
+.custom-right-section img {
+  max-width: 80px; /* مثال: خليت أقصى عرض للوجو 100 بكسل */
+  height: auto; /* عشان يحافظ على أبعاد الصورة */
+  display: block; /* عشان تديها تحكم أفضل في المارجن لو حبيت*/
+  margin: 0px 16px; /* لو عايز اللوجو يجي في نص الديف أفقياً */
+}
+.john {
+  width: 144px;
+  height: 33px;
+  top: 87px;
+  left: 1307px;
+}
+.card1{
+position: relative;
+background-color: #2F2F2F;
+z-index: 1;
+}
+.card2{
+
+    position: absolute;
+    background-color: #FF9921;
+    z-index: 2;
+}
